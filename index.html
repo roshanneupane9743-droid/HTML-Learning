@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> First CSS</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+        /* # is use to select an element with a specific id attribute.
+         . is use to select elements with a specific class attribute. */
+        #first {
+            background-color: blue;
+        }
+        #second{
+            color:rgb(16, 227, 16);
+        }
+        .red-color,h1 {
+            background-color:gray;
+            color:pink;
+        }
+        .Roshan{
+            color:yellow;
+            background-color:red;
+
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+    </style>
+    </head>
+    <body>
+        Hello Guys
+        <!-- using div is useful for grouping elements together and applying
+ styles or scripts to them. -->
+
+        <!--    id have unique value but in class we add many other but not add in id -->
+        <div id="first" style="color: rgb(211, 0, 120)">
+            <!-- in we can add in div it is the second way to add color -->
+            first
+        </div>
+        <div id="second">
+            second
+        </div>
+        <h1> Roshan Neupane hii</h1>
+        <!-- using class is useful for applying styles to multiple elements that share
+     the same class name. It allows you to define a set of styles once and apply them 
+     to multiple elements, making it easier to maintain consistency in your design. -->
+
+        <!-- using section is useful for grouping related content together and providing
+      semantic meaning to the content. It helps to organize the content of a webpage
+      into distinct sections, making it easier for users to navigate and understand 
+      the content. -->
+        <section class="red ">
+            hii
+        </section>
+        <section class="red-color">
+            hello gyuss kasa ho
+        </section>
+        <!-- using id is useful for uniquely identifying an element on a webpage. It allows
+     you to apply styles or scripts to a specific element, making it easier to target 
+     and manipulate that element in your code. -->
+        <div id="first">
+            hee second
+        </div>
+
+        <!-- using span is useful for applying styles or scripts to a specific portion of text 
+    within an element. It allows you to target and manipulate that specific portion of
+     text without affecting the rest of the content within the element. -->
+        <span class="Roshan">Roshan firstr</span>
+        <span class="Roshan">Roshan Second</span>
+
+        <span class="Roshan">Roshan Third</span>
+
+    </body>
+</html>
