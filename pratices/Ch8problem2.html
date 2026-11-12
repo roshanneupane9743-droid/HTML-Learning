@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         ress{
+            background-color: red;
+            height: 4px;
+            animation: load 1s ease-in-out 1s ;
+        }
+        header{
+            height: 10vh;
+            background-color: black;
+
+        }
+        main{
+            height: 90vh;
+            background-color: blue;
+
+        }
+        @keyframes load {
+            0% {
+                width: 0;
+            }
+            50% {
+                width: 50%;
+            }
+            100%{
+                width: 100%;
+            }
+        }
+          @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(180deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        img{
+            animation: rotate 4s ease-in infinite; ;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="progress">
+
+    </div>
+    <header>
+
+    </header>
+            <main>
+
+        
+   <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/river-in-the-forest-free-smartphone-wallpaper-free-photo.jpeg?h=800&quality=80" alt ="forest" width="30%" height="40%">
+        </main>
+    
+
+    </div>
+</body>
+</html>
