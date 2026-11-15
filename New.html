@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media & Animation Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <!-- Animated Heading -->
+    <h1 class="fade-in-title">Welcome to My Media Page</h1>
+
+    <!-- Image Section with Hover Animation -->
+    <section class="media-card slide-up">
+      <h2>Featured Image</h2>
+      <img 
+        src="https://unsplash.com" 
+        alt="Scenic mountain valley landscape" 
+        class="animated-image"
+      >
+      <p>Hover over the image to see a smooth zoom animation.</p>
+    </section>
+
+    <!-- Video Section -->
+    <section class="media-card slide-up">
+      <h2>Featured Video</h2>
+      <video class="responsive-video" controls muted loop poster="https://unsplash.com">
+        <source src="https://mozilla.net" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>Use the built-in controls to play, pause, or unmute the video.</p>
+    </section>
+  </main>
+
+</body>
+</html>
