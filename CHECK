@@ -1,0 +1,66 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ :root {
+     --main-color: #2874f0;}
+     /* Flipkart Blue (or keep #13a607 for green) */
+     header {
+    background-color: var(--main-color);
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    padding: 0 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 25px;
+}
+
+nav ul li {
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+    
+.container {
+    min-height: calc(100vh - 8vh - 12vh);
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-color);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
